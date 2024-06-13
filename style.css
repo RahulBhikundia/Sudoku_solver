@@ -53,13 +53,27 @@ button {
     background-color: aliceblue;
     border-radius: 5%;
     border: solid black 1px;
+    margin-bottom: 20px;
 }
 
 footer {
+    display: flex;
     text-align: center;
+    justify-content: center;
+    height: 20px;
 }
 
 a {
     text-decoration: none;
     color:black
+}
+
+p {
+    margin: 0;
+}
+.icon {
+    margin-left: 10px;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 0;
 }
